@@ -1,0 +1,68 @@
+[
+  {
+    "model": "Naive",
+    "mae": 0.921,
+    "rmse": 1.1438,
+    "oosR2": 0.4744,
+    "error2026Partial": 0.0477,
+    "forecast2030Log10": 24.5877,
+    "forecast2030FLOP": "3.87e+24",
+    "behavior": "Flat (Zero growth)",
+    "comments": "Reference baseline; fails to capture empirical compute expansion."
+  },
+  {
+    "model": "Linear Trend",
+    "mae": 0.8023,
+    "rmse": 0.89,
+    "oosR2": 0.6818,
+    "error2026Partial": -0.0141,
+    "forecast2030Log10": 26.9807,
+    "forecast2030FLOP": "9.569999999999999e+26",
+    "behavior": "Linear in log-space (Orderly compounding)",
+    "comments": "SELECTED PRIMARY: Best 2026 partial prediction, stable long-range extrapolation, robust 14 df."
+  },
+  {
+    "model": "Quadratic Trend",
+    "mae": 0.9454,
+    "rmse": 1.2088,
+    "oosR2": 0.413,
+    "error2026Partial": -0.9577,
+    "forecast2030Log10": 29.4785,
+    "forecast2030FLOP": "3.01e+29",
+    "behavior": "Explosive quadratic acceleration",
+    "comments": "Severely unstable in 7-fold backtest (RMSE=1.209); projects implausible 10^29.5 FLOP by 2030."
+  },
+  {
+    "model": "Holt Linear Trend",
+    "mae": 0.8481,
+    "rmse": 1.0035,
+    "oosR2": 0.5955,
+    "error2026Partial": -0.5799,
+    "forecast2030Log10": 27.6686,
+    "forecast2030FLOP": "4.6600000000000005e+27",
+    "behavior": "Dynamic smoothed linear drift",
+    "comments": "Strong dynamic baseline; adapts to recent slope but sensitive to small sample plateaus."
+  },
+  {
+    "model": "ARIMA(0,1,0)+drift",
+    "mae": 0.6701,
+    "rmse": 0.8241,
+    "oosR2": 0.7272,
+    "error2026Partial": -0.5856,
+    "forecast2030Log10": 27.7547,
+    "forecast2030FLOP": "5.680000000000001e+27",
+    "behavior": "Constant differenced drift (+0.63/yr)",
+    "comments": "Lowest 7-fold backtest RMSE (0.824); over-projects partial 2026 snapshot by 0.58 dex."
+  },
+  {
+    "model": "ARIMA(1,1,0)+drift",
+    "mae": 0.7083,
+    "rmse": 0.8407,
+    "oosR2": 0.7161,
+    "error2026Partial": -0.7018,
+    "forecast2030Log10": 27.8406,
+    "forecast2030FLOP": "6.93e+27",
+    "behavior": "Damped autoregressive drift",
+    "comments": "AR(1) parameter statistically insignificant (p=0.395); over-parameterized for N=15 df."
+  }
+]

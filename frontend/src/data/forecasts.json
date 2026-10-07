@@ -1,0 +1,62 @@
+[
+  {
+    "year": 2027,
+    "linearLog10": 25.2324,
+    "linearFLOP": 1.7075539213717522e+25,
+    "linearFLOPStr": "1.71e+25",
+    "piLowerLog10": 23.4246,
+    "piUpperLog10": 27.0402,
+    "piLowerFLOP": 2.658034701011165e+23,
+    "piUpperFLOP": 1.0969534721585264e+27,
+    "piLowerFLOPStr": "2.66e+23",
+    "piUpperFLOPStr": "1.10e+27",
+    "arima010Log10": 25.8646,
+    "holtLog10": 25.8286,
+    "quadLog10": 26.5083
+  },
+  {
+    "year": 2028,
+    "linearLog10": 25.8151,
+    "linearFLOP": 6.533551052173143e+25,
+    "linearFLOPStr": "6.53e+25",
+    "piLowerLog10": 23.9677,
+    "piUpperLog10": 27.6626,
+    "piLowerFLOP": 9.283873022605878e+23,
+    "piUpperFLOP": 4.598004437093318e+27,
+    "piLowerFLOPStr": "9.28e+23",
+    "piUpperFLOPStr": "4.60e+27",
+    "arima010Log10": 26.4946,
+    "holtLog10": 26.442,
+    "quadLog10": 27.461
+  },
+  {
+    "year": 2029,
+    "linearLog10": 26.3979,
+    "linearFLOP": 2.4999087183778407e+26,
+    "linearFLOPStr": "2.50e+26",
+    "piLowerLog10": 24.5079,
+    "piUpperLog10": 28.288,
+    "piLowerFLOP": 3.2202936371448696e+24,
+    "piUpperFLOP": 1.9406750763767047e+28,
+    "piLowerFLOPStr": "3.22e+24",
+    "piUpperFLOPStr": "1.94e+28",
+    "arima010Log10": 27.1247,
+    "holtLog10": 27.0553,
+    "quadLog10": 28.4508
+  },
+  {
+    "year": 2030,
+    "linearLog10": 26.9807,
+    "linearFLOP": 9.56530920216746e+26,
+    "linearFLOPStr": "9.57e+26",
+    "piLowerLog10": 25.0453,
+    "piUpperLog10": 28.9161,
+    "piLowerFLOP": 1.109833337426775e+25,
+    "piUpperFLOP": 8.244043231320413e+28,
+    "piLowerFLOPStr": "1.11e+25",
+    "piUpperFLOPStr": "8.24e+28",
+    "arima010Log10": 27.7547,
+    "holtLog10": 27.6686,
+    "quadLog10": 29.4776
+  }
+]

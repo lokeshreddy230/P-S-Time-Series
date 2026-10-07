@@ -1,0 +1,7 @@
+Model,Backtest_MAE,Backtest_RMSE,OOS_R2,Error_2026_Partial,Forecast_2030_log10,Forecast_2030_FLOP,Extrapolation_Behavior,Comments
+Naive,0.921,1.1438,0.4744,0.0477,24.5877,3.87e+24,Flat (Zero growth),Reference baseline; fails to capture empirical compute expansion.
+Linear Trend,0.8023,0.89,0.6818,-0.0141,26.9807,9.57e+26,Linear in log-space (Orderly compounding),"SELECTED PRIMARY: Best 2026 partial prediction, stable long-range extrapolation, robust 14 df."
+Quadratic Trend,0.9454,1.2088,0.413,-0.9577,29.4785,3.01e+29,Explosive quadratic acceleration,Severely unstable in 7-fold backtest (RMSE=1.209); projects implausible 10^29.5 FLOP by 2030.
+Holt Linear Trend,0.8481,1.0035,0.5955,-0.5799,27.6686,4.66e+27,Dynamic smoothed linear drift,Strong dynamic baseline; adapts to recent slope but sensitive to small sample plateaus.
+"ARIMA(0,1,0)+drift",0.6701,0.8241,0.7272,-0.5856,27.7547,5.68e+27,Constant differenced drift (+0.63/yr),Lowest 7-fold backtest RMSE (0.824); over-projects partial 2026 snapshot by 0.58 dex.
+"ARIMA(1,1,0)+drift",0.7083,0.8407,0.7161,-0.7018,27.8406,6.93e+27,Damped autoregressive drift,AR(1) parameter statistically insignificant (p=0.395); over-parameterized for N=15 df.

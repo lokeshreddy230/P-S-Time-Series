@@ -1,0 +1,380 @@
+[
+  {
+    "model": "Naive",
+    "testYear": 2019,
+    "actual": 20.0692,
+    "predicted": 18.141,
+    "error": 1.9282,
+    "absoluteError": 1.9282,
+    "squaredError": 3.7178
+  },
+  {
+    "model": "Linear Trend",
+    "testYear": 2019,
+    "actual": 20.0692,
+    "predicted": 19.5317,
+    "error": 0.5375,
+    "absoluteError": 0.5375,
+    "squaredError": 0.2889
+  },
+  {
+    "model": "Quadratic Trend",
+    "testYear": 2019,
+    "actual": 20.0692,
+    "predicted": 17.9676,
+    "error": 2.1016,
+    "absoluteError": 2.1016,
+    "squaredError": 4.4166
+  },
+  {
+    "model": "Holt Linear Trend",
+    "testYear": 2019,
+    "actual": 20.0692,
+    "predicted": 18.4218,
+    "error": 1.6473,
+    "absoluteError": 1.6473,
+    "squaredError": 2.7137
+  },
+  {
+    "model": "ARIMA(0,1,0)+drift",
+    "testYear": 2019,
+    "actual": 20.0692,
+    "predicted": 18.5228,
+    "error": 1.5464,
+    "absoluteError": 1.5464,
+    "squaredError": 2.3913
+  },
+  {
+    "model": "ARIMA(1,1,0)+drift",
+    "testYear": 2019,
+    "actual": 20.0692,
+    "predicted": 18.5517,
+    "error": 1.5174,
+    "absoluteError": 1.5174,
+    "squaredError": 2.3027
+  },
+  {
+    "model": "Naive",
+    "testYear": 2020,
+    "actual": 20.795,
+    "predicted": 20.0692,
+    "error": 0.7258,
+    "absoluteError": 0.7258,
+    "squaredError": 0.5268
+  },
+  {
+    "model": "Linear Trend",
+    "testYear": 2020,
+    "actual": 20.795,
+    "predicted": 20.1388,
+    "error": 0.6562,
+    "absoluteError": 0.6562,
+    "squaredError": 0.4306
+  },
+  {
+    "model": "Quadratic Trend",
+    "testYear": 2020,
+    "actual": 20.795,
+    "predicted": 19.3127,
+    "error": 1.4823,
+    "absoluteError": 1.4823,
+    "squaredError": 2.1973
+  },
+  {
+    "model": "Holt Linear Trend",
+    "testYear": 2020,
+    "actual": 20.795,
+    "predicted": 20.1388,
+    "error": 0.6561,
+    "absoluteError": 0.6561,
+    "squaredError": 0.4305
+  },
+  {
+    "model": "ARIMA(0,1,0)+drift",
+    "testYear": 2020,
+    "actual": 20.795,
+    "predicted": 20.6228,
+    "error": 0.1722,
+    "absoluteError": 0.1722,
+    "squaredError": 0.0297
+  },
+  {
+    "model": "ARIMA(1,1,0)+drift",
+    "testYear": 2020,
+    "actual": 20.795,
+    "predicted": 20.081,
+    "error": 0.714,
+    "absoluteError": 0.714,
+    "squaredError": 0.5098
+  },
+  {
+    "model": "Naive",
+    "testYear": 2021,
+    "actual": 22.0911,
+    "predicted": 20.795,
+    "error": 1.2962,
+    "absoluteError": 1.2962,
+    "squaredError": 1.68
+  },
+  {
+    "model": "Linear Trend",
+    "testYear": 2021,
+    "actual": 22.0911,
+    "predicted": 20.7988,
+    "error": 1.2923,
+    "absoluteError": 1.2923,
+    "squaredError": 1.6701
+  },
+  {
+    "model": "Quadratic Trend",
+    "testYear": 2021,
+    "actual": 22.0911,
+    "predicted": 20.4963,
+    "error": 1.5949,
+    "absoluteError": 1.5949,
+    "squaredError": 2.5436
+  },
+  {
+    "model": "Holt Linear Trend",
+    "testYear": 2021,
+    "actual": 22.0911,
+    "predicted": 20.7988,
+    "error": 1.2923,
+    "absoluteError": 1.2923,
+    "squaredError": 1.6701
+  },
+  {
+    "model": "ARIMA(0,1,0)+drift",
+    "testYear": 2021,
+    "actual": 22.0911,
+    "predicted": 21.3658,
+    "error": 0.7253,
+    "absoluteError": 0.7253,
+    "squaredError": 0.5261
+  },
+  {
+    "model": "ARIMA(1,1,0)+drift",
+    "testYear": 2021,
+    "actual": 22.0911,
+    "predicted": 21.3214,
+    "error": 0.7697,
+    "absoluteError": 0.7697,
+    "squaredError": 0.5925
+  },
+  {
+    "model": "Naive",
+    "testYear": 2022,
+    "actual": 22.1704,
+    "predicted": 22.0911,
+    "error": 0.0792,
+    "absoluteError": 0.0792,
+    "squaredError": 0.0063
+  },
+  {
+    "model": "Linear Trend",
+    "testYear": 2022,
+    "actual": 22.1704,
+    "predicted": 21.6808,
+    "error": 0.4896,
+    "absoluteError": 0.4896,
+    "squaredError": 0.2397
+  },
+  {
+    "model": "Quadratic Trend",
+    "testYear": 2022,
+    "actual": 22.1704,
+    "predicted": 21.9924,
+    "error": 0.178,
+    "absoluteError": 0.178,
+    "squaredError": 0.0317
+  },
+  {
+    "model": "Holt Linear Trend",
+    "testYear": 2022,
+    "actual": 22.1704,
+    "predicted": 21.6808,
+    "error": 0.4896,
+    "absoluteError": 0.4896,
+    "squaredError": 0.2397
+  },
+  {
+    "model": "ARIMA(0,1,0)+drift",
+    "testYear": 2022,
+    "actual": 22.1704,
+    "predicted": 22.7279,
+    "error": -0.5575,
+    "absoluteError": 0.5575,
+    "squaredError": 0.3108
+  },
+  {
+    "model": "ARIMA(1,1,0)+drift",
+    "testYear": 2022,
+    "actual": 22.1704,
+    "predicted": 22.608,
+    "error": -0.4376,
+    "absoluteError": 0.4376,
+    "squaredError": 0.1915
+  },
+  {
+    "model": "Naive",
+    "testYear": 2023,
+    "actual": 22.8015,
+    "predicted": 22.1704,
+    "error": 0.6311,
+    "absoluteError": 0.6311,
+    "squaredError": 0.3983
+  },
+  {
+    "model": "Linear Trend",
+    "testYear": 2023,
+    "actual": 22.8015,
+    "predicted": 22.3324,
+    "error": 0.4691,
+    "absoluteError": 0.4691,
+    "squaredError": 0.2201
+  },
+  {
+    "model": "Quadratic Trend",
+    "testYear": 2023,
+    "actual": 22.8015,
+    "predicted": 22.7603,
+    "error": 0.0411,
+    "absoluteError": 0.0411,
+    "squaredError": 0.0017
+  },
+  {
+    "model": "Holt Linear Trend",
+    "testYear": 2023,
+    "actual": 22.8015,
+    "predicted": 22.3324,
+    "error": 0.4691,
+    "absoluteError": 0.4691,
+    "squaredError": 0.2201
+  },
+  {
+    "model": "ARIMA(0,1,0)+drift",
+    "testYear": 2023,
+    "actual": 22.8015,
+    "predicted": 22.7607,
+    "error": 0.0408,
+    "absoluteError": 0.0408,
+    "squaredError": 0.0017
+  },
+  {
+    "model": "ARIMA(1,1,0)+drift",
+    "testYear": 2023,
+    "actual": 22.8015,
+    "predicted": 22.8578,
+    "error": -0.0564,
+    "absoluteError": 0.0564,
+    "squaredError": 0.0032
+  },
+  {
+    "model": "Naive",
+    "testYear": 2024,
+    "actual": 24.48,
+    "predicted": 22.8015,
+    "error": 1.6785,
+    "absoluteError": 1.6785,
+    "squaredError": 2.8175
+  },
+  {
+    "model": "Linear Trend",
+    "testYear": 2024,
+    "actual": 24.48,
+    "predicted": 22.9835,
+    "error": 1.4965,
+    "absoluteError": 1.4965,
+    "squaredError": 2.2396
+  },
+  {
+    "model": "Quadratic Trend",
+    "testYear": 2024,
+    "actual": 24.48,
+    "predicted": 23.4873,
+    "error": 0.9927,
+    "absoluteError": 0.9927,
+    "squaredError": 0.9855
+  },
+  {
+    "model": "Holt Linear Trend",
+    "testYear": 2024,
+    "actual": 24.48,
+    "predicted": 23.1486,
+    "error": 1.3314,
+    "absoluteError": 1.3314,
+    "squaredError": 1.7725
+  },
+  {
+    "model": "ARIMA(0,1,0)+drift",
+    "testYear": 2024,
+    "actual": 24.48,
+    "predicted": 23.3949,
+    "error": 1.0851,
+    "absoluteError": 1.0851,
+    "squaredError": 1.1774
+  },
+  {
+    "model": "ARIMA(1,1,0)+drift",
+    "testYear": 2024,
+    "actual": 24.48,
+    "predicted": 23.3756,
+    "error": 1.1044,
+    "absoluteError": 1.1044,
+    "squaredError": 1.2196
+  },
+  {
+    "model": "Naive",
+    "testYear": 2025,
+    "actual": 24.5877,
+    "predicted": 24.48,
+    "error": 0.1077,
+    "absoluteError": 0.1077,
+    "squaredError": 0.0116
+  },
+  {
+    "model": "Linear Trend",
+    "testYear": 2025,
+    "actual": 24.5877,
+    "predicted": 23.913,
+    "error": 0.6747,
+    "absoluteError": 0.6747,
+    "squaredError": 0.4552
+  },
+  {
+    "model": "Quadratic Trend",
+    "testYear": 2025,
+    "actual": 24.5877,
+    "predicted": 24.8149,
+    "error": -0.2272,
+    "absoluteError": 0.2272,
+    "squaredError": 0.0516
+  },
+  {
+    "model": "Holt Linear Trend",
+    "testYear": 2025,
+    "actual": 24.5877,
+    "predicted": 24.6386,
+    "error": -0.0509,
+    "absoluteError": 0.0509,
+    "squaredError": 0.0026
+  },
+  {
+    "model": "ARIMA(0,1,0)+drift",
+    "testYear": 2025,
+    "actual": 24.5877,
+    "predicted": 25.1509,
+    "error": -0.5632,
+    "absoluteError": 0.5632,
+    "squaredError": 0.3172
+  },
+  {
+    "model": "ARIMA(1,1,0)+drift",
+    "testYear": 2025,
+    "actual": 24.5877,
+    "predicted": 24.9464,
+    "error": -0.3587,
+    "absoluteError": 0.3587,
+    "squaredError": 0.1286
+  }
+]
